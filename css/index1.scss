@@ -1,0 +1,303 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding: 0.625rem 1.25rem;
+    background: #39c893;
+    .div_a{
+        width: 20%;
+        padding-right: 1.75rem;
+        img{
+            width: 100%;
+        }
+    }
+    ul{
+        width: 60%;
+        padding: 0.625rem;
+        li:nth-child(1){
+            width: 75%;
+            img{
+                width: 100%;
+            }
+        }
+        li:nth-child(2){
+            margin-top: 1rem;
+            width: 100%;
+            background: #2bb280;
+            height: 2.5rem;
+            font-size: 1rem;
+            text-align:center;
+            line-height: 2.5rem;
+            border-radius: 0.625rem;
+            color: white;
+            span{
+                font-size: 1.25rem;
+                color: #feb505;
+            }
+        }
+    }
+    .div_b{
+        width: 20%;  
+        text-align: right;      
+        span{
+        font-size: 2rem !important;
+        color: #202020;
+        }
+    }
+}
+
+
+.inp{
+    width: 100%;
+    padding: 0.624rem;
+    display: flex;
+    padding-bottom: 1.25rem;
+    input{
+        height: 4.375rem;
+        border: 2px solid #2bb280; 
+        font-size: 1.75rem;
+        color: #aaa;
+        
+    }
+    button{
+        background: #2bb280;
+        border: none;
+        font-size: 1.25rem;
+        color: white;
+    }
+}
+.ul_a{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 4.6875rem;
+    line-height: 4.6875rem;
+    font-size: 1.75rem;
+    color: #000;
+    box-sizing: border-box;
+    border-bottom: 0.125rem solid #eaeaea;
+    
+    li{
+        width: 30%;
+        height: 100%;
+        
+    }
+    li:hover{
+        border-bottom: 0.125rem solid #2bb280;
+    }
+}
+.nas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.25rem 0;
+    li{
+        width: 25%;
+        line-height: 6.5625rem;
+        div{
+            margin: 0 auto;
+            width: 6.5625rem;
+            height: 6.5625rem;
+            border: 2px solid #2bb280;
+            text-align: center;
+            border-radius: 100%;
+            span{
+                font-size: 3.625rem;
+                color: #2bb280;
+            }
+
+        }
+        p{
+            text-align: center;
+            font-size: 1.75rem;
+            color: #666;
+        }
+    }
+}
+.btn{
+    width: 100%;
+    padding: 1.25rem;
+    button{
+        width: 100%;
+        height: 4.375rem;
+        background: none;
+        border: 2px solid #2bb280; 
+        font-size: 1.25rem;
+        color: #2bb280;
+        border-radius: 10px;
+        
+    }
+}
+.lv{
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+    div{
+        width: 0.3125rem;
+        height: 2.625rem;
+        background: #2bb280;
+    }
+    span{
+        font-size: 2.25rem ;
+        color: #000;
+        letter-spacing: 2px;
+        
+    }
+}
+.zx{
+    width: 100%;
+    ul{
+        width: 100%;
+        display: flex;
+        padding: 1rem;
+        
+        li:nth-child(1){
+            padding: 1rem;
+            
+            width:40%;
+            img{
+                width: 100%;
+            }
+        }
+        li:nth-child(2){
+            padding: 1rem;
+            display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+            
+            font-size: 1.5rem;
+            p:nth-child(1){
+                
+            }
+            p:nth-child(2){
+                font-size: 1.25rem;
+                color: #999;
+                span:nth-child(2){
+                    margin-left: 3rem;
+                }
+            }
+        }
+    }
+}
+.huan{
+    width: 90%;
+    height: 4.375rem;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    line-height: 4.375rem;
+    p{
+        font-size: 1.75rem;
+        color: #2bb280;
+        span{
+        font-size: 1.75rem;
+        
+        }
+    }
+}
+.foot{
+    width: 100%;
+    padding: 2.25rem 1.25rem;
+    p{
+        font-size: 1.5rem;
+        text-indent: 20px;
+        color: #333;
+        letter-spacing: 2px;
+        line-height: 3.375rem;
+    }
+}
+#fw{
+    width: 100%;
+    text-align: center;
+    padding: 2.25rem 0 0 0;
+    p{
+    font-size: 1.5rem;
+        span{
+            font-size: 1.5rem;
+            color: #39C893;
+        }
+    }
+    ul{
+        padding: 2.25rem 0 0 0;
+        width: 100%;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+ 
+}
+#gd{
+    background: white;
+    position: fixed;
+    bottom: 4.5rem;
+    right: 1.5rem;
+    width: 5.875rem;
+    height: 5.875rem;
+    border: 1px solid #dedede;
+    line-height: 5.875rem;
+    text-align: center;
+    border-radius: 100%;
+    span{
+        font-size: 2.5rem;
+        color: #9c9c9c;
+    }
+}
+footer{
+    width: 100%;
+    height: 6.625rem;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    div:nth-child(1){
+        width: 5%;
+        height: 100%;
+        div{
+            width: 2rem;
+            height: 2rem;
+            border-bottom-right-radius:100%;
+            background: #2bb280; 
+        }
+        
+        span{
+            font-size: 1.5rem;
+            color: white;
+        }
+    }
+    div:nth-child(2){
+       width: 65% ;
+       height: 100%;
+       padding: 0.5rem;
+       img{
+           width: 100%;
+           height: 100%;
+       }
+    }
+    div:nth-child(3){
+        width: 30%;
+        height: 100%;
+        line-height:6.625rem; 
+        text-align: center;
+        button{
+            width: 10.9375rem;
+            height: 3.125rem;
+            border: none;
+            background: #feb605;
+            line-height: 3.125rem;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            color: white;
+        }
+    }
+}

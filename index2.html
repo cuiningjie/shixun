@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        
+		<link rel="stylesheet" href="css/index2.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<script>
+           (function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					if(clientWidth>750) clientWidth=750;//这里限制最大的宽度尺寸，从而实现PC端的两边留白等
+					docEl.style.fontSize = 10 * (clientWidth / 320) + 'px';
+				};
+
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+         </script>
+	</head>
+	<body>
+            <header>
+                <div id="logo">
+                    <img src="img/logo.png" />
+                </div>
+                <div id="user">
+                    <p>
+                        <span class="iconfont icon-user"></span>
+                        <br />我的
+                    </p>
+                    <p>
+                        <span class="iconfont icon-nav"></span>
+                        导航
+                    </p>
+                </div>
+            </header>
+            <div class="banner_a">
+                <img src="img2/process1.jpg" alt="">
+                
+            </div>
+            <div class="banner_b">
+                <img src="img2/process2.jpg" alt="">
+                <p class="p1">【装修前】</p>
+                <p class="p2">NO.1收房验房</p>
+                <p class="p3">NO.2装修预算</p>
+                <p class="p4">NO.3装修风水</p>
+                <p class="p5">NO.4装修设计</p>
+            </div>
+            <div class="banner_c">
+                <img src="img2/process3.png" alt="">
+                <p class="p1">【装修中】</p>
+                <p class="p2">NO.5材料选择</p>
+                <p class="p3">NO.6水电工程</p>
+                <p class="p4">NO.7泥木工程</p>
+                <p class="p5">NO.8油漆工程</p>
+            </div>
+            <div class="banner_d">
+                <img src="img2/process4.jpg" alt="">
+                <p class="p1">【装修后】</p>
+                <p class="p2">NO.9装修验房</p>
+                <p class="p3">NO.10去污保洁</p>
+                <p class="p4">NO.11软装搭配</p>
+                <p class="p5">NO.12家居生活</p>
+            </div>
+    </body>
+</html>
